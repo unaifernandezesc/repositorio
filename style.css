@@ -1,0 +1,40 @@
+#titulo {
+    text-align: center;
+    background-color: black;
+    padding: 0.313rem;
+    color: white;
+}
+
+body {
+    display: grid;
+    grid-template-areas:    "header header header"
+                            "aside main main";
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+    width: 0.313rem;
+    padding: 0.938rem;
+}
+
+main {
+    grid-area: main;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+article{
+    grid-area: header;
+    margin: 30%;
+    margin: 0.625rem;
+    border: 0.063rem solid black;
+    padding: 0.625rem;
+}
